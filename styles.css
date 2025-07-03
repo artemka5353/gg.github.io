@@ -1,0 +1,73 @@
+body {
+    background-color: #2c3e50; /* Темный фон */
+    color: #ecf0f1; /* Светлый текст */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6; /* Увеличенный межстрочный интервал */
+}
+
+.container {
+    max-width: 800px; /* Максимальная ширина контейнера */
+    margin: auto; /* Центрирование контейнера */
+    background: #34495e; /* Темно-синий фон для резюме */
+    padding: 20px;
+    border-radius: 8px; /* Скругленные углы */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Более заметная тень для контейнера */
+}
+
+h1, h2, h3 {
+    color: #ecf0f1; /* Светлый цвет для заголовков */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+p {
+    margin: 10px 0; /* Отступы для абзацев */
+}
+
+ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+}
+
+li {
+    background-color: #1abc9c; /* Цвет фона для пунктов списка */
+    margin: 5px 0; /* Отступы между пунктами */
+    padding: 10px; /* Внутренние отступы */
+    border-radius: 5px; /* Скругленные углы для пунктов списка */
+}
+
+img {
+    max-width: 100%; /* Ограничиваем максимальную ширину изображения */
+    height: auto; /* Сохраняем пропорции изображения */
+    border-radius: 5px; /* Скругляем углы изображения (по желанию) */
+    margin-bottom: 20px; /* Отступ снизу для изображения */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #bdc3c7; /* Светло-серый цвет для футера */
+}
+
+img {
+    max-width: 100%; /* Ограничиваем максимальную ширину изображения */
+    height: auto; /* Сохраняем пропорции изображения */
+    border-radius: 5px; /* Скругляем углы изображения (по желанию) */
+}
+
